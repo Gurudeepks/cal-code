@@ -1,0 +1,19 @@
+val_1 = int(input('val 1:'))
+val_2 = int(input('val 2:'))
+def sub(val_1,val_2):
+    subb = val_1 - val_2
+    print("Sub:", subb)
+def mul(val_1,val_2):
+    mull = val_1*val_2
+    print("mul:", mull)
+def div(val_1,val_2):
+    if val_2 !=0:
+        divv = val_1/val_2
+        print("div:", divv)
+    else:
+        print("val 2 is not equal to zero")
+sub(val_1, val_2)
+mul(val_1, val_2)
+div(val_1, val_2)
+
+    
